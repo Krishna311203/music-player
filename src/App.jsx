@@ -1,14 +1,10 @@
-import { useState } from "react";
+import React from 'react'
+import Home from './Screens/home/home'
 
-
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App() {
   return (
-    <>
-      <p>Hello World</p>
-    </>
-  );
+    <div>
+      <Home></Home>
+    </div>
+  )
 }
-
-export default App;
